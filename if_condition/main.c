@@ -10,7 +10,7 @@ void guessNumber(int number)
     {
         printf("Your number %d: %s\n", number, "You guessed too high!");
     }
-    if (number < 555)
+    else if (number < 555)
     {
         printf("Your number %d: %s\n", number, "You guessed too low!");
     }
