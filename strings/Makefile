@@ -1,0 +1,4 @@
+main:
+
+clean:
+	($RM) main
