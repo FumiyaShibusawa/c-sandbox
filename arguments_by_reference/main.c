@@ -8,7 +8,7 @@ typedef struct
 
 void getsOldByOne(person *p)
 {
-    printf("getsOldByOne %p\n", &p);
+    printf("getsOldByOne %p\n", p);
     (*p).age++;
 };
 
